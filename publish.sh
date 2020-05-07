@@ -7,11 +7,11 @@ gitbook build
 
 cd ..
 
-# checkout to the gh-pages branch
-git checkout gh-pages
+# checkout to the master branch
+git checkout master
 
 # pull the latest updates
-git pull origin gh-pages
+git pull origin master
 
 
 if [[ "$?" != "0" ]]; then
@@ -43,10 +43,10 @@ fi
 git add .
 
 # commit
-git commit -a -m "Update docs"
+git commit  -m "Update docs"
 
 # push to the origin
-git push origin gh-pages
+git push
 
 # checkout to the master branch
-git checkout master
+git checkout dev
