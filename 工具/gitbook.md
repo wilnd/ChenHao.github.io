@@ -1,3 +1,16 @@
+# GitBook
+
+#### 初次安装
+- npm install -g cnpm --registry=https://registry.npm.taobao.org
+- cnpm install gitbook-cli -g
+- gitbook -V
+#### 常用指令
+- gitbook init
+- gitbook build
+- gitbook serve
+#### 编译上传shell脚本
+
+```
 #! /bin/bash
 cd doc
 
@@ -40,7 +53,7 @@ if [[ "$ccount" > 1 ]];then
 fi
 
 # add all files
-git add .
+git add --all
 
 # commit
 git commit -a -m "Update docs"
@@ -50,3 +63,4 @@ git push origin gh-pages
 
 # checkout to the master branch
 git checkout master
+```
