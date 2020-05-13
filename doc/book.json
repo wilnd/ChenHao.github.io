@@ -1,5 +1,13 @@
 {
     "plugins": [
-		"katex"
-	]
+		"katex",
+		"3-ba",
+		"-lunr", "-search", "search-plus",
+		"chapter-fold"
+	],
+	"pluginsConfig": {
+        "3-ba": {
+            "token": "c86dfbc297bdff2fe6e32a446bf170c4"
+        }
+    }
 }
