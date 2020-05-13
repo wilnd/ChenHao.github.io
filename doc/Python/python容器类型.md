@@ -1,0 +1,51 @@
+# python容器类型
+- 列表,刑如[a,b,c,d] 
+	- 常见操作:
+		- print(list)
+		- print(list[0])
+		- print(list[1:3]) 输出从第1(从0开始算)个元素开始到底3个元素(不包含)结束
+		- print(list[2:]) 输出从第2个元素开始的所有元素
+		- print(list * 2) 输出两次列表
+		- print(list1 + list2) 连接列表
+	- 注意:
+		- list内置了很多方法,包括append,pop等
+		- list写在方括号中间,元素用逗号隔开
+		- list可以被索引和切片
+		- list可以使用+操作符进行拼接
+		- list中的元素可以被改变
+		- -1是最后一个元素的索引
+- 元组,刑如 (a,b,c)
+	- 常见操作 
+		- print(tuple)
+		- print(tuple[0])
+		- print(tuple[1:3]) 输出元素从第1(从0开始算)个元素到底3个元素(不包含)结束
+		- print(tuple[2:]) 输出从第2(从0开始算)个元素开始的所有元素
+		- print(tuple * 2) 输出两次元组
+		- print(tuple + tuple2) 连接两个元组
+	- 注意 
+		- 元组元素是不能变的,但是它可以包含可变对象(相当于java容器中元素的的引用不能变,但是引用所指向的内容是可以)
+		- 索引,切片类似列表
+		- 特殊元组的定义: 空元组 tup1 = () 一个元素的元组 tup2 = (1,)
+- 集合 刑如: {a, b, c}
+	- 常见操作 
+		- a = set('123456') 初始化一个集合
+		- if '1' in a  判断元素是否在集合内
+		- print (a) 
+		- print(a - b) 求两个结合的差集
+		- print (a|b) 求两个集合的并集
+		- print (a & b) 求两个集合的交集
+		- print (a ^ b) 求a,b不同时存在的元素
+	- 注意
+		- 集合中的数据不能重复
+		- {}或者set()都能初始化集合,但是如果初始化的集合没有内容,只用用set()
+- 字典 刑如: {"a":1,"b":2}
+	- 常见操作 
+		- print(dict('a') 输出key为a的值
+		- print(dict[2]) 输出key为2的值
+		- print(dict) 输出整个字典
+		- print(dict.keys()) 输出key的所有key
+		- print(dict.values) 输出key的所有value
+	- 注意
+		- 字典就类似java里的map
+		- 字典的key必定不可变,且不能重复
+		- 创建空字典用{}
