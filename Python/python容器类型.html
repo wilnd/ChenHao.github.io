@@ -1,0 +1,580 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>python容器类型 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../工具/" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Tensorflow/">
+            
+                <a href="../Tensorflow/">
+            
+                    
+                    Tensorflow
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Tensorflow/环境搭建.html">
+            
+                <a href="../Tensorflow/环境搭建.html">
+            
+                    
+                    环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Tensorflow/线性模型.html">
+            
+                <a href="../Tensorflow/线性模型.html">
+            
+                    
+                    线性模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../Tensorflow/手写数字问题.html">
+            
+                <a href="../Tensorflow/手写数字问题.html">
+            
+                    
+                    手写数字问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Java/README.md">
+            
+                <span>
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.1" data-path="python容器类型.html">
+            
+                <a href="python容器类型.html">
+            
+                    
+                    python容器类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../工具/">
+            
+                <a href="../工具/">
+            
+                    
+                    工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../工具/git.html">
+            
+                <a href="../工具/git.html">
+            
+                    
+                    GIT
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../工具/gitbook.html">
+            
+                <a href="../工具/gitbook.html">
+            
+                    
+                    GitBook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../工具/VPN.html">
+            
+                <a href="../工具/VPN.html">
+            
+                    
+                    VPN
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../预备数学知识/">
+            
+                <a href="../预备数学知识/">
+            
+                    
+                    预备数学知识
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../预备数学知识/概念.html">
+            
+                <a href="../预备数学知识/概念.html">
+            
+                    
+                    概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../预备数学知识/矩阵.html">
+            
+                <a href="../预备数学知识/矩阵.html">
+            
+                    
+                    矩阵
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../问题/">
+            
+                <a href="../问题/">
+            
+                    
+                    问题
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../问题/运维问题.html">
+            
+                <a href="../问题/运维问题.html">
+            
+                    
+                    运维问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../日记/">
+            
+                <a href="../日记/">
+            
+                    
+                    日记
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../日记/2020.html">
+            
+                <a href="../日记/2020.html">
+            
+                    
+                    2020
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >python容器类型</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="python&#x5BB9;&#x5668;&#x7C7B;&#x578B;">python&#x5BB9;&#x5668;&#x7C7B;&#x578B;</h1>
+<ul>
+<li>&#x5217;&#x8868;,&#x5211;&#x5982;[a,b,c,d] <ul>
+<li>&#x5E38;&#x89C1;&#x64CD;&#x4F5C;:<ul>
+<li>print(list)</li>
+<li>print(list[0])</li>
+<li>print(list[1:3]) &#x8F93;&#x51FA;&#x4ECE;&#x7B2C;1(&#x4ECE;0&#x5F00;&#x59CB;&#x7B97;)&#x4E2A;&#x5143;&#x7D20;&#x5F00;&#x59CB;&#x5230;&#x5E95;3&#x4E2A;&#x5143;&#x7D20;(&#x4E0D;&#x5305;&#x542B;)&#x7ED3;&#x675F;</li>
+<li>print(list[2:]) &#x8F93;&#x51FA;&#x4ECE;&#x7B2C;2&#x4E2A;&#x5143;&#x7D20;&#x5F00;&#x59CB;&#x7684;&#x6240;&#x6709;&#x5143;&#x7D20;</li>
+<li>print(list * 2) &#x8F93;&#x51FA;&#x4E24;&#x6B21;&#x5217;&#x8868;</li>
+<li>print(list1 + list2) &#x8FDE;&#x63A5;&#x5217;&#x8868;</li>
+</ul>
+</li>
+<li>&#x6CE8;&#x610F;:<ul>
+<li>list&#x5185;&#x7F6E;&#x4E86;&#x5F88;&#x591A;&#x65B9;&#x6CD5;,&#x5305;&#x62EC;append,pop&#x7B49;</li>
+<li>list&#x5199;&#x5728;&#x65B9;&#x62EC;&#x53F7;&#x4E2D;&#x95F4;,&#x5143;&#x7D20;&#x7528;&#x9017;&#x53F7;&#x9694;&#x5F00;</li>
+<li>list&#x53EF;&#x4EE5;&#x88AB;&#x7D22;&#x5F15;&#x548C;&#x5207;&#x7247;</li>
+<li>list&#x53EF;&#x4EE5;&#x4F7F;&#x7528;+&#x64CD;&#x4F5C;&#x7B26;&#x8FDB;&#x884C;&#x62FC;&#x63A5;</li>
+<li>list&#x4E2D;&#x7684;&#x5143;&#x7D20;&#x53EF;&#x4EE5;&#x88AB;&#x6539;&#x53D8;</li>
+<li>-1&#x662F;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x7D22;&#x5F15;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>&#x5143;&#x7EC4;,&#x5211;&#x5982; (a,b,c)<ul>
+<li>&#x5E38;&#x89C1;&#x64CD;&#x4F5C; <ul>
+<li>print(tuple)</li>
+<li>print(tuple[0])</li>
+<li>print(tuple[1:3]) &#x8F93;&#x51FA;&#x5143;&#x7D20;&#x4ECE;&#x7B2C;1(&#x4ECE;0&#x5F00;&#x59CB;&#x7B97;)&#x4E2A;&#x5143;&#x7D20;&#x5230;&#x5E95;3&#x4E2A;&#x5143;&#x7D20;(&#x4E0D;&#x5305;&#x542B;)&#x7ED3;&#x675F;</li>
+<li>print(tuple[2:]) &#x8F93;&#x51FA;&#x4ECE;&#x7B2C;2(&#x4ECE;0&#x5F00;&#x59CB;&#x7B97;)&#x4E2A;&#x5143;&#x7D20;&#x5F00;&#x59CB;&#x7684;&#x6240;&#x6709;&#x5143;&#x7D20;</li>
+<li>print(tuple * 2) &#x8F93;&#x51FA;&#x4E24;&#x6B21;&#x5143;&#x7EC4;</li>
+<li>print(tuple + tuple2) &#x8FDE;&#x63A5;&#x4E24;&#x4E2A;&#x5143;&#x7EC4;</li>
+</ul>
+</li>
+<li>&#x6CE8;&#x610F; <ul>
+<li>&#x5143;&#x7EC4;&#x5143;&#x7D20;&#x662F;&#x4E0D;&#x80FD;&#x53D8;&#x7684;,&#x4F46;&#x662F;&#x5B83;&#x53EF;&#x4EE5;&#x5305;&#x542B;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;(&#x76F8;&#x5F53;&#x4E8E;java&#x5BB9;&#x5668;&#x4E2D;&#x5143;&#x7D20;&#x7684;&#x7684;&#x5F15;&#x7528;&#x4E0D;&#x80FD;&#x53D8;,&#x4F46;&#x662F;&#x5F15;&#x7528;&#x6240;&#x6307;&#x5411;&#x7684;&#x5185;&#x5BB9;&#x662F;&#x53EF;&#x4EE5;)</li>
+<li>&#x7D22;&#x5F15;,&#x5207;&#x7247;&#x7C7B;&#x4F3C;&#x5217;&#x8868;</li>
+<li>&#x7279;&#x6B8A;&#x5143;&#x7EC4;&#x7684;&#x5B9A;&#x4E49;: &#x7A7A;&#x5143;&#x7EC4; tup1 = () &#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x5143;&#x7EC4; tup2 = (1,)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>&#x96C6;&#x5408; &#x5211;&#x5982;: {a, b, c}<ul>
+<li>&#x5E38;&#x89C1;&#x64CD;&#x4F5C; <ul>
+<li>a = set(&apos;123456&apos;) &#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;&#x96C6;&#x5408;</li>
+<li>if &apos;1&apos; in a  &#x5224;&#x65AD;&#x5143;&#x7D20;&#x662F;&#x5426;&#x5728;&#x96C6;&#x5408;&#x5185;</li>
+<li>print (a) </li>
+<li>print(a - b) &#x6C42;&#x4E24;&#x4E2A;&#x7ED3;&#x5408;&#x7684;&#x5DEE;&#x96C6;</li>
+<li>print (a|b) &#x6C42;&#x4E24;&#x4E2A;&#x96C6;&#x5408;&#x7684;&#x5E76;&#x96C6;</li>
+<li>print (a &amp; b) &#x6C42;&#x4E24;&#x4E2A;&#x96C6;&#x5408;&#x7684;&#x4EA4;&#x96C6;</li>
+<li>print (a ^ b) &#x6C42;a,b&#x4E0D;&#x540C;&#x65F6;&#x5B58;&#x5728;&#x7684;&#x5143;&#x7D20;</li>
+</ul>
+</li>
+<li>&#x6CE8;&#x610F;<ul>
+<li>&#x96C6;&#x5408;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x4E0D;&#x80FD;&#x91CD;&#x590D;</li>
+<li>{}&#x6216;&#x8005;set()&#x90FD;&#x80FD;&#x521D;&#x59CB;&#x5316;&#x96C6;&#x5408;,&#x4F46;&#x662F;&#x5982;&#x679C;&#x521D;&#x59CB;&#x5316;&#x7684;&#x96C6;&#x5408;&#x6CA1;&#x6709;&#x5185;&#x5BB9;,&#x53EA;&#x7528;&#x7528;set()</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>&#x5B57;&#x5178; &#x5211;&#x5982;: {&quot;a&quot;:1,&quot;b&quot;:2}<ul>
+<li>&#x5E38;&#x89C1;&#x64CD;&#x4F5C; <ul>
+<li>print(dict(&apos;a&apos;) &#x8F93;&#x51FA;key&#x4E3A;a&#x7684;&#x503C;</li>
+<li>print(dict[2]) &#x8F93;&#x51FA;key&#x4E3A;2&#x7684;&#x503C;</li>
+<li>print(dict) &#x8F93;&#x51FA;&#x6574;&#x4E2A;&#x5B57;&#x5178;</li>
+<li>print(dict.keys()) &#x8F93;&#x51FA;key&#x7684;&#x6240;&#x6709;key</li>
+<li>print(dict.values) &#x8F93;&#x51FA;key&#x7684;&#x6240;&#x6709;value</li>
+</ul>
+</li>
+<li>&#x6CE8;&#x610F;<ul>
+<li>&#x5B57;&#x5178;&#x5C31;&#x7C7B;&#x4F3C;java&#x91CC;&#x7684;map</li>
+<li>&#x5B57;&#x5178;&#x7684;key&#x5FC5;&#x5B9A;&#x4E0D;&#x53EF;&#x53D8;,&#x4E14;&#x4E0D;&#x80FD;&#x91CD;&#x590D;</li>
+<li>&#x521B;&#x5EFA;&#x7A7A;&#x5B57;&#x5178;&#x7528;{}</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Python">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../工具/" class="navigation navigation-next " aria-label="Next page: 工具">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"python容器类型","level":"1.4.1","depth":2,"next":{"title":"工具","level":"1.5","depth":1,"path":"工具/README.md","ref":"工具/README.md","articles":[{"title":"GIT","level":"1.5.1","depth":2,"path":"工具/git.md","ref":"工具/git.md","articles":[]},{"title":"GitBook","level":"1.5.2","depth":2,"path":"工具/gitbook.md","ref":"工具/gitbook.md","articles":[]},{"title":"VPN","level":"1.5.3","depth":2,"path":"工具/VPN.md","ref":"工具/VPN.md","articles":[]}]},"previous":{"title":"Python","level":"1.4","depth":1,"path":"Python/README.md","ref":"Python/README.md","articles":[{"title":"python容器类型","level":"1.4.1","depth":2,"path":"Python/python容器类型.md","ref":"Python/python容器类型.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["katex"],"pluginsConfig":{"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Python/python容器类型.md","mtime":"2020-05-11T17:22:56.693Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-13T17:16:53.583Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
